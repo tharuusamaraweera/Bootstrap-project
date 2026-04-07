@@ -23,54 +23,148 @@
   <body>
     <!-- Start your project here-->
         <!-- Navbar -->
-        <nav class="navbar navbar-dark bg-dark">
-          <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1">My First Bootstrap Page</span>
-          </div>
-        </nav>
-        
-        <div class="container mt-4">
-        
-          <!-- Heading -->
-          <h1 class="text-primary">Hello, Bootstrap!</h1>
-          <p>This is a simple example for beginners.</p>
-        
-          <!-- Button -->
-          <button class="btn btn-success">Click Me</button>
-        
-          <!-- Card -->
-          <div class="card mt-4" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Sample Card</h5>
-              <p class="card-text">This is a simple card using Bootstrap.</p>
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
-        
-          <!-- Table -->
-          <table class="table table-striped mt-4">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Course</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>John</td>
-                <td>22</td>
-                <td>IT</td>
-              </tr>
-              <tr>
-                <td>Mary</td>
-                <td>21</td>
-                <td>CS</td>
-              </tr>
-            </tbody>
-          </table>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">MyBootstrap</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
     </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero">
+  <h1>Welcome to My Bootstrap Project</h1>
+  <p>Simple, clean, and responsive design</p>
+  <button class="btn btn-light">Get Started</button>
+</div>
+
+<!-- Features -->
+<div class="container text-center mt-5">
+  <h2 class="mb-4">Features</h2>
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="p-3 border rounded">
+        <div class="feature-icon">⚡</div>
+        <h5>Fast</h5>
+        <p>Quick and responsive design.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="p-3 border rounded">
+        <div class="feature-icon">📱</div>
+        <h5>Responsive</h5>
+        <p>Works on all screen sizes.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="p-3 border rounded">
+        <div class="feature-icon">🎨</div>
+        <h5>Modern</h5>
+        <p>Clean and simple UI design.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Cards Section -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Sample Cards</h2>
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card One</h5>
+          <p class="card-text">This is a simple card example.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card Two</h5>
+          <p class="card-text">Bootstrap makes UI easy.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card Three</h5>
+          <p class="card-text">Practice and improve skills.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Table -->
+<div class="container mt-5">
+  <h2 class="text-center mb-3">Student Table</h2>
+  <table class="table table-bordered table-hover">
+    <thead class="table-dark">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Course</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>22</td>
+        <td>IT</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>21</td>
+        <td>CS</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Contact Form -->
+<div class="container mt-5 mb-5">
+  <h2 class="text-center mb-4">Contact Us</h2>
+  <form>
+    <div class="mb-3">
+      <input type="text" class="form-control" placeholder="Your Name">
+    </div>
+    <div class="mb-3">
+      <input type="email" class="form-control" placeholder="Email">
+    </div>
+    <div class="mb-3">
+      <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+    </div>
+    <button class="btn btn-primary w-100">Send Message</button>
+  </form>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 MyBootstrap Project | Beginner Friendly</p>
+</footer>
     <!-- End your project here-->
 
     <!-- MDB -->
