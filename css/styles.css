@@ -1,0 +1,17 @@
+.hero {
+      background: linear-gradient(to right, #0d6efd, #6610f2);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+  }
+
+  .feature-icon {
+      font-size: 40px;
+  }
+
+  footer {
+      background: #212529;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+  }
