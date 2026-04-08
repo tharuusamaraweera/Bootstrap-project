@@ -35,26 +35,27 @@
 
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cards">Cards</a></li>
+        <li class="nav-item"><a class="nav-link" href="#table">Table</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
 <!-- Hero Section -->
-<div class="hero">
+<div id="hero" class="hero">
   <h1>Welcome to My Bootstrap Project</h1>
   <p>Simple, clean, and responsive design</p>
   <button class="btn btn-light">Get Started</button>
 </div>
 
 <!-- Features -->
-<div class="container text-center mt-5">
+<div id="features" class="container text-center mt-5">
   <h2 class="mb-4">Features</h2>
   <div class="row">
-
     <div class="col-md-4">
       <div class="p-3 border rounded">
         <div class="feature-icon">⚡</div>
@@ -62,7 +63,6 @@
         <p>Quick and responsive design.</p>
       </div>
     </div>
-
     <div class="col-md-4">
       <div class="p-3 border rounded">
         <div class="feature-icon">📱</div>
@@ -70,7 +70,6 @@
         <p>Works on all screen sizes.</p>
       </div>
     </div>
-
     <div class="col-md-4">
       <div class="p-3 border rounded">
         <div class="feature-icon">🎨</div>
@@ -78,15 +77,14 @@
         <p>Clean and simple UI design.</p>
       </div>
     </div>
-
   </div>
 </div>
 
 <!-- Cards Section -->
-<div class="container mt-5">
+<div id="cards" class="container mt-5">
   <h2 class="text-center mb-4">Sample Cards</h2>
   <div class="row">
-
+    <!-- Card One -->
     <div class="col-md-4">
       <div class="card">
         <div class="card-body">
@@ -96,7 +94,7 @@
         </div>
       </div>
     </div>
-
+    <!-- Card Two -->
     <div class="col-md-4">
       <div class="card">
         <div class="card-body">
@@ -106,7 +104,7 @@
         </div>
       </div>
     </div>
-
+    <!-- Card Three -->
     <div class="col-md-4">
       <div class="card">
         <div class="card-body">
@@ -116,12 +114,11 @@
         </div>
       </div>
     </div>
-
   </div>
 </div>
 
-<!-- Table -->
-<div class="container mt-5">
+<!-- Table Section -->
+<div id="table" class="container mt-5">
   <h2 class="text-center mb-3">Student Table</h2>
   <table class="table table-bordered table-hover">
     <thead class="table-dark">
@@ -147,7 +144,7 @@
 </div>
 
 <!-- Contact Form -->
-<div class="container mt-5 mb-5">
+<div id="contact" class="container mt-5 mb-5">
   <h2 class="text-center mb-4">Contact Us</h2>
   <form>
     <div class="mb-3">
